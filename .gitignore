@@ -1,0 +1,23 @@
+# Ignore dataset and large files
+*.h5
+*.pkl
+*.csv
+
+# Ignore temporary and system files
+__pycache__/
+*.log
+*.tmp
+*.swp
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE and OS-specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
